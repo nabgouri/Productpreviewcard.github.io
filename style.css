@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(30, 38%, 92%);
+  width: auto;
+  height: auto;
+}
+.product-cart {
+  padding-right: 20px;
+  border: 2px solid hsl(30, 38%, 92%);
+  position: relative;
+  background-color: hsl(0, 0%, 100%);
+  width: 432px;
+  height: 383px;
+  margin: 176.48px 480px;
+  border-radius: 10px;
+}
+.product-title {
+  margin: 20px 0 25px 245px;
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+.product-brand-title {
+  font-size: 26px;
+  margin: 0 0 20px 245px;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+}
+.product-descreption {
+  line-height: 18px;
+  font-size: 11px;
+  margin: 0 0 20px 245px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+}
+.product-price {
+  position: relative;
+  font-size: 24px;
+  font-family: "Fraunces", serif;
+  margin: 0 0 20px 245px;
+  color: hsl(158, 36%, 37%);
+}
+.product-price::after {
+  border: solid #fff 1px;
+  font-family: "Montserrat", sans-serif;
+  content: "$169.99";
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+  margin: 0 0 0 10px;
+  font-size: 14px;
+  position: absolute;
+  top: 4.5px;
+}
+.call-for-action {
+  font-size: 14.5px;
+  font-weight: bold;
+  width: 185.734px;
+  margin: 0 0 10px 245px;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 40px;
+}
+.call-for-action:hover {
+  background-color: hsl(212, 21%, 14%);
+  cursor: pointer;
+}
+img {
+  width: 216px;
+  height: 383px;
+  border-radius: 5px 0 0 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
